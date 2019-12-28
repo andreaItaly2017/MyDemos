@@ -41,6 +41,19 @@
                 </executions>
             </plugin>
         </plugins>
+
+        <resources>
+            <resource>
+                <directory>src/my-folderresources</directory>
+            </resource>
+            <resource>
+                <directory>src/my-folderresources2</directory>
+            </resource>
+            <resource>
+                <directory>src/my-folderresources3</directory>
+            </resource>
+        </resources>
+
     </build>
 
 </project>
