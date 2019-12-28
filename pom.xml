@@ -44,7 +44,7 @@
             </plugin>
         </plugins>
 
-         
+
         <resources>
             <resource>
                 <directory>src/my-folderresources</directory>
@@ -58,6 +58,12 @@
             </resource>
 
         </resources>
+
+        <filters>
+            <filter>
+                src/my-folderresources/my-filter-values.properties
+            </filter>
+        </filters>
 
     </build>
 
