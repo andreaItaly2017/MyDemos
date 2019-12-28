@@ -57,6 +57,14 @@
                 <directory>src/my-folderresources3</directory>
             </resource>
 
+            <resource>
+                <directory>src/excludeIncludeFolder</directory>
+                <includes>
+                    <include>**/*.rtf</include>
+                    <include>**/*.txt</include>
+                </includes>
+            </resource>
+
         </resources>
 
         <filters>
