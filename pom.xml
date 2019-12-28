@@ -46,6 +46,7 @@
 
 
         <resources>
+            <!--
             <resource>
                 <directory>src/my-folderresources</directory>
                 <filtering>true</filtering>
@@ -63,6 +64,25 @@
                     <include>**/*.rtf</include>
                     <include>**/*.txt</include>
                 </includes>
+            </resource>
+
+            <resource>
+                <directory>src/excludeIncludeFolder2</directory>
+                <excludes>
+                    <exclude>**/*.bmp</exclude>
+                    <exclude>**/*.jpg</exclude>
+                    <exclude>**/*.gif</exclude>
+                </excludes>
+            </resource>
+-->
+            <resource>
+                <directory>src/excludeIncludeFolder4</directory>
+                <includes>
+                    <include>**/*.txt</include>
+                </includes>
+                <excludes>
+                    <exclude>**/*Test*.*</exclude>
+                </excludes>
             </resource>
 
         </resources>
